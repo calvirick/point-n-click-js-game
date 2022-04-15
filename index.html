@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/favicon/favicon-32x32.png"
+    />
+    <title>Point n Click Game</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <h3 id="title">Please don't click anywhere...</h3>
+
+    <img
+      id="currentImage"
+      src="/assets/Scenes/scene1.jpg"
+      onclick="pictureChange()"
+    />
+    <p>
+      <input type="button" id="theButton" value="Go Back" onclick="goBack()" />
+    </p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

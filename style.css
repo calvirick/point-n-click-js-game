@@ -1,0 +1,15 @@
+*,
+::before *,
+::after * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#move-button {
+  font-weight: 600;
+  font-size: large;
+  padding: 10px;
+}
+
+#currentImage {
+  max-width: 100%;
+}
